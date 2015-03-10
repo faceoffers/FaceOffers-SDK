@@ -1,0 +1,15 @@
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\FaceOffers.SDK.dll.config
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\FaceOffers.SDK.dll
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\FaceOffers.SDK.pdb
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\Elmah.dll
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\FaceOffers.Entities.dll
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\FaceOffers.Infrastructure.dll
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\Newtonsoft.Json.dll
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\Ninject.dll
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\FaceOffers.Entities.pdb
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\FaceOffers.Infrastructure.pdb
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\Newtonsoft.Json.xml
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\Ninject.xml
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.dll
+\\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.pdb
