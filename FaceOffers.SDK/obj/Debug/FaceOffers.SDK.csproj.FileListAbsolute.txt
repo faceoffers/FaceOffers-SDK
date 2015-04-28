@@ -13,3 +13,18 @@
 \\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\bin\Debug\Ninject.xml
 \\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.dll
 \\psf\Home\Documents\Projects\Creative Gurus\FaceOffers.Sample\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.pdb
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.dll
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.pdb
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\FaceOffers.SDK.dll.config
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\FaceOffers.SDK.dll
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\FaceOffers.SDK.pdb
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\Elmah.dll
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\Newtonsoft.Json.dll
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\Ninject.dll
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\System.Net.Http.Formatting.dll
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\FaceOffers.Entities.pdb
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\FaceOffers.Infrastructure.pdb
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\Newtonsoft.Json.xml
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\Ninject.xml
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\bin\Debug\System.Net.Http.Formatting.xml
+\\psf\Home\Downloads\FaceOffers-SDK-master\FaceOffers.SDK\obj\Debug\FaceOffers.SDK.csprojResolveAssemblyReference.cache
