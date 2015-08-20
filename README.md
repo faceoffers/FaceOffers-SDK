@@ -1,3 +1,5 @@
+<img class="logo" alt="" src="http://api.faceoffers.com/Content/images/faceoffers-blue.png">
+
 # FaceOffers-SDK
 FACEOFFERS SDK &amp; Sample console app for ASP.Net. 
 
