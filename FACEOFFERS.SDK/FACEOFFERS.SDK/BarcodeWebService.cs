@@ -25,11 +25,11 @@ namespace FACEOFFERS.SDK
             }
         }
 
-        public async Task<Barcode> InsertAsync(Barcode barcode)
+        public async Task<Barcode> InsertAsync(Guid offerId)
         {
             try
-            {
-                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/Barcodes", barcode, HttpRequestType.POST);
+            {   
+                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, String.Format("api/Barcodes?offerId={0}", offerId), null, HttpRequestType.POST);
                 return await content.ReadAsAsync<Barcode>();
             }
             catch (Exception e)
