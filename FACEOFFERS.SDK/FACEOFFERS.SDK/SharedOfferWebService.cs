@@ -58,7 +58,7 @@ namespace FACEOFFERS.SDK
         {
             try
             {
-                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/SharedOffers", sharedOffer, HttpRequestType.POST);
+                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/Share", sharedOffer, HttpRequestType.POST);
                 return await content.ReadAsAsync<SharedOffer>();
             }
             catch (Exception e)
