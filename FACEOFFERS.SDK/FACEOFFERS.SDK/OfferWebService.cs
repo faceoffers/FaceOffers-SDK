@@ -39,6 +39,13 @@ namespace FACEOFFERS.SDK
             var jsonString = await content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<IEnumerable<Offer>>(jsonString);
         }
+        
+        public async Task<IEnumerable<Offer>> GetActiveOffersByTimeZoneAsync(Guid merchantId, String timezone)
+        {
+            HttpContent content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, String.Format("api/Offers/Active/{0}/{1}", merchantId, timezone), null, HttpRequestType.GET);
+            var jsonString = await content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<IEnumerable<Offer>>(jsonString);
+        }
 
         public async Task<IEnumerable<Offer>> GetByAppIdAsync(Guid appId)
         {
@@ -64,6 +71,13 @@ namespace FACEOFFERS.SDK
         public async Task<IEnumerable<OfferSummary>> GetActiveOffersSummaryAsync(Guid merchantId)
         {
             HttpContent content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/Offers/ActiveSummary/" + merchantId, null, HttpRequestType.GET);
+            var jsonString = await content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<IEnumerable<OfferSummary>>(jsonString);
+        }
+        
+          public async Task<IEnumerable<OfferSummary>> GetActiveOffersSummaryByTimeZoneAsync(Guid merchantId, String timezone)
+        {
+            HttpContent content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, String.Format("api/Offers/ActiveSummary/{0}/{1}", merchantId, timezone), null, HttpRequestType.GET);
             var jsonString = await content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<IEnumerable<OfferSummary>>(jsonString);
         }
