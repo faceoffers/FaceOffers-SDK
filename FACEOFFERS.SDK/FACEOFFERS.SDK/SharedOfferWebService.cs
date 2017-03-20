@@ -66,6 +66,19 @@ namespace FACEOFFERS.SDK
                 throw;
             }
         }
+        
+        public async Task<SharedOffer> InsertByTimeZoneAsync(SharedOffer sharedOffer)
+        {
+            try
+            {
+                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/Share/ByTimeZone", sharedOffer, HttpRequestType.POST);
+                return await content.ReadAsAsync<SharedOffer>();
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
 
         public async Task<SharedOffer> UpdateAsync(SharedOffer sharedOffer)
         {
