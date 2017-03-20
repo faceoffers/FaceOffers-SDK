@@ -95,6 +95,13 @@ namespace FACEOFFERS.SDK
             var jsonString = await content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<IEnumerable<OfferSummary>>(jsonString);
         }
+        
+        public async Task<int> GetCountAsync(Guid merchantId)
+        {
+            HttpContent content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/Offers/Count/" + merchantId, null, HttpRequestType.GET);
+            var jsonString = await content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<int>(jsonString);
+        }
 
         public async Task<Offer> InsertAsync(Offer offer)
         {
