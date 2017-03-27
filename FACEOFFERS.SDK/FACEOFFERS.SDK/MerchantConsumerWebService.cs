@@ -25,6 +25,45 @@ namespace FACEOFFERS.SDK
                 throw;
             }
         }
+        
+        public async Task<MerchantConsumer> FindByConsumerAsync(Guid consumerId)
+        {
+            try
+            {
+                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/MerchantConsumers/ByConsumer/" + consumerId, null, HttpRequestType.GET);
+                return await content.ReadAsAsync<MerchantConsumer>();
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+        public async Task<MerchantConsumer> FindByConsumerPhoneNumberAsync(String phonenumber)
+        {
+            try
+            {
+                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/MerchantConsumers/ByConsumerPhone/" + phonenumber, null, HttpRequestType.GET);
+                return await content.ReadAsAsync<MerchantConsumer>();
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+        public async Task<MerchantConsumer> FindByConsumerEmailAddressAsync(String emailaddress)
+        {
+            try
+            {
+                var content = await HttpHelper.Request(Constants.FACEOFFERS_AUTH_TOKEN, Constants.FACEOFFERS_API_URL, "api/MerchantConsumers/ByConsumerEmail/" + emailaddress, null, HttpRequestType.GET);
+                return await content.ReadAsAsync<MerchantConsumer>();
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
 
         public async Task<ConsumerProfileSummary> GetConsumerSummaryAsync(Guid consumerId)
         {
